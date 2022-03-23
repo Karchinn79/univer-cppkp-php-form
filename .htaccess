@@ -1,0 +1,18 @@
+<Files "list.html">
+AuthType Basic
+AuthName "Restricted area"
+AuthUserFile "D:/black/programs/x4mpp/htdocs/univer/.htpasswd"
+require valid-user
+</Files>
+<Files "list.xlsx">
+AuthType Basic
+AuthName "Restricted area"
+AuthUserFile "D:/black/programs/x4mpp/htdocs/univer/.htpasswd"
+require valid-user
+</Files>
+<Files "clear.php">
+AuthType Basic
+AuthName "Restricted area"
+AuthUserFile "D:/black/programs/x4mpp/htdocs/univer/.htpasswd"
+require valid-user
+</Files>
